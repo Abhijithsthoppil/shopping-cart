@@ -1,0 +1,40 @@
+# Node modules and frontend build
+shopping-cart-frontend/node_modules/
+shopping-cart-frontend/.next/
+shopping-cart-frontend/dist/
+shopping-cart-frontend/build/
+
+# Dependency logs
+shopping-cart-frontend/package-lock.json
+shopping-cart-frontend/yarn.lock
+
+# Env and system files
+**/.env
+**/.env.local
+**/.DS_Store
+**/Thumbs.db
+
+# Python virtual environments and bytecode
+shopping-cart-backend/venv/
+shopping-cart-backend/__pycache__/
+shopping-cart-backend/**/*.pyc
+
+# Python dependency logs
+shopping-cart-backend/poetry.lock
+shopping-cart-backend/Pipfile.lock
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# Coverage/test files
+**/coverage/
+**/.pytest_cache/
+**/htmlcov/
+
+# Local database or misc files
+shopping-cart-backend/*.sqlite3
+shopping-cart-backend/*.db
+
+# Build output (if any backend build)
+shopping-cart-backend/build/

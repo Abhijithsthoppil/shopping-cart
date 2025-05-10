@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+/* tailwind css */
+@import "tailwindcss";
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Customize the banner styles */
+.slick-slide {
+  padding: 20px;
+}
+
+.slick-prev,
+.slick-next {
+  color: #fff;
+  font-size: 30px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #029fae;
+}
+
+.slick-dots li button:before {
+  color: #fff; /* Dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #029fae; /* Active dot color */
+}
+
+
